@@ -1,0 +1,12 @@
+name = bfluth_taxonomy
+description = Taxonomies to the bfluth site.
+core = 7.x
+package = BFLUTH
+version = 7.x-1.0
+project = bfluth_taxonomy
+dependencies[] = features
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[taxonomy][] = color
+features[taxonomy][] = event_type
+features[taxonomy][] = tags

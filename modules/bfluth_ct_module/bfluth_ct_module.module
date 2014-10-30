@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the bfluth_ct_module feature.
  */
+
+include_once 'bfluth_ct_module.features.inc';
