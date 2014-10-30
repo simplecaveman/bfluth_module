@@ -1,0 +1,11 @@
+name = bfluth_text_filters
+description = Text format filters for the bfluth site.
+core = 7.x
+package = BFLUTH
+version = 7.x-1.0
+project = bfluth_text_filters
+dependencies[] = features
+dependencies[] = filter
+features[features_api][] = api:2
+features[filter][] = filtered_html
+features[filter][] = full_html
