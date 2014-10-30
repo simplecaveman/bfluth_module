@@ -40,6 +40,7 @@ function bfluth_site_config_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'page_image',
   );
 
   // Exported image style: photo_album_thumb.
@@ -66,6 +67,7 @@ function bfluth_site_config_image_default_styles() {
         'label' => 'Define canvas',
         'help' => 'Define the size of the working canvas and background color, this controls the dimensions of the output image.',
         'effect callback' => 'canvasactions_definecanvas_image',
+        'dimensions callback' => 'canvasactions_definecanvas_dimensions',
         'form callback' => 'canvasactions_definecanvas_form',
         'summary theme' => 'canvasactions_definecanvas_summary',
         'module' => 'imagecache_canvasactions',
@@ -94,6 +96,7 @@ function bfluth_site_config_image_default_styles() {
         'label' => 'Define canvas',
         'help' => 'Define the size of the working canvas and background color, this controls the dimensions of the output image.',
         'effect callback' => 'canvasactions_definecanvas_image',
+        'dimensions callback' => 'canvasactions_definecanvas_dimensions',
         'form callback' => 'canvasactions_definecanvas_form',
         'summary theme' => 'canvasactions_definecanvas_summary',
         'module' => 'imagecache_canvasactions',
@@ -122,6 +125,7 @@ function bfluth_site_config_image_default_styles() {
         'label' => 'Overlay (watermark)',
         'help' => 'Choose the file image you wish to use as an overlay, and position it in a layer on top of the canvas.',
         'effect callback' => 'canvasactions_file2canvas_image',
+        'dimensions passthrough' => TRUE,
         'form callback' => 'canvasactions_file2canvas_form',
         'summary theme' => 'canvasactions_file2canvas_summary',
         'module' => 'imagecache_canvasactions',
@@ -138,6 +142,7 @@ function bfluth_site_config_image_default_styles() {
         'label' => 'Overlay (watermark)',
         'help' => 'Choose the file image you wish to use as an overlay, and position it in a layer on top of the canvas.',
         'effect callback' => 'canvasactions_file2canvas_image',
+        'dimensions passthrough' => TRUE,
         'form callback' => 'canvasactions_file2canvas_form',
         'summary theme' => 'canvasactions_file2canvas_summary',
         'module' => 'imagecache_canvasactions',
@@ -154,6 +159,7 @@ function bfluth_site_config_image_default_styles() {
         'label' => 'Overlay (watermark)',
         'help' => 'Choose the file image you wish to use as an overlay, and position it in a layer on top of the canvas.',
         'effect callback' => 'canvasactions_file2canvas_image',
+        'dimensions passthrough' => TRUE,
         'form callback' => 'canvasactions_file2canvas_form',
         'summary theme' => 'canvasactions_file2canvas_summary',
         'module' => 'imagecache_canvasactions',
@@ -170,6 +176,7 @@ function bfluth_site_config_image_default_styles() {
         'label' => 'Overlay (watermark)',
         'help' => 'Choose the file image you wish to use as an overlay, and position it in a layer on top of the canvas.',
         'effect callback' => 'canvasactions_file2canvas_image',
+        'dimensions passthrough' => TRUE,
         'form callback' => 'canvasactions_file2canvas_form',
         'summary theme' => 'canvasactions_file2canvas_summary',
         'module' => 'imagecache_canvasactions',
@@ -183,6 +190,7 @@ function bfluth_site_config_image_default_styles() {
         'weight' => 7,
       ),
     ),
+    'label' => 'photo_album_thumb',
   );
 
   return $styles;
