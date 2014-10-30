@@ -1,0 +1,15 @@
+name = bfluth_views
+description = Views for the bfluth site.
+core = 7.x
+package = BFLUTH
+version = 7.x-1.0
+project = bfluth_views
+dependencies[] = calendar
+dependencies[] = ctools
+dependencies[] = redirect
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = calendar_of_events
+features[views_view][] = church_blog_announcements
+features[views_view][] = photo_galleries

@@ -1,0 +1,10 @@
+name = bfluth_image_styles
+description = Image styles for the bfluth site.
+core = 7.x
+package = BFLUTH
+version = 7.x-1.0
+project = bfluth_image_styles
+dependencies[] = image
+features[features_api][] = api:2
+features[image][] = page_image
+features[image][] = photo_album_thumb

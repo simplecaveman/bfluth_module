@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the bfluth_site_config feature.
+ */
+
+include_once 'bfluth_site_config.features.inc';

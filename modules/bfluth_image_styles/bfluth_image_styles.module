@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the bfluth_image_styles feature.
+ */
+
+include_once 'bfluth_image_styles.features.inc';

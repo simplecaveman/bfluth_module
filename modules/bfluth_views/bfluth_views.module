@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the bfluth_views feature.
+ */
+
+include_once 'bfluth_views.features.inc';
